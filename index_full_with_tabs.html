@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GIYU Store - Top Up Followers</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('giyu_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding-bottom: 50px;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px 10px;
+    }
+
+    header img {
+      max-width: 140px;
+      margin-bottom: 10px;
+      animation: dropIn 1s ease;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #fff;
+    }
+
+    .banner {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .banner img {
+      max-width: 90%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+      animation: fadeIn 2s ease;
+    }
+
+    .section {
+      max-width: 700px;
+      margin: 40px auto;
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+
+    .section h2 {
+      text-align: center;
+      color: #ffcc00;
+      margin-bottom: 15px;
+    }
+
+    .section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .section ul li {
+      background: rgba(0,0,0,0.3);
+      padding: 10px 15px;
+      margin: 8px 0;
+      border-radius: 6px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .cta a {
+      background: #25D366;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 10px;
+      display: inline-block;
+    }
+
+    .cta a.telegram {
+      background: #0088cc;
+    }
+
+    footer {
+      text-align: center;
+      color: #ccc;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes dropIn {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <img src="banner1.jpg" alt="GIYU Logo">
+      <h1>GIYU STORE</h1>
+    </header>
+
+    <div class="banner">
+      <img src="banner2.jpg" alt="Promo Banner">
+    </div>
+
+    <div class="section" data-aos="fade-up">
+      <h2>🔥 JUAL FOLLOWERS INSTAGRAM & TIKTOK MURAH & REAL!</h2>
+      <p style="text-align:center;">Bikin akun kamu makin terpercaya, dilirik brand, dan naik engagement! 💯</p>
+    </div>
+
+    <div class="section" data-aos="fade-up">
+      <h2>📸 INSTAGRAM INTERNASIONAL</h2>
+      <ul>
+        <li>✅ 500 Followers ➡️ Rp 27.000</li>
+        <li>✅ 1000 Followers ➡️ Rp 54.000</li>
+        <li>✅ 2000 Followers ➡️ Rp 108.000</li>
+        <li>✅ 5000 Followers ➡️ Rp 270.000</li>
+        <li>✅ 10.000 Followers ➡️ Rp 540.000</li>
+      </ul>
+    </div>
+
+    <div class="section" data-aos="fade-up">
+      <h2>🇮🇩 INSTAGRAM INDONESIA</h2>
+      <ul>
+        <li>✅ 500 Followers ➡️ Rp 70.000</li>
+        <li>✅ 1000 Followers ➡️ Rp 140.000</li>
+        <li>✅ 2000 Followers ➡️ Rp 280.000</li>
+        <li>✅ 5000 Followers ➡️ Rp 700.000</li>
+      </ul>
+    </div>
+
+    <div class="section" data-aos="fade-up">
+      <h2>🎵 FOLLOWERS TIKTOK</h2>
+      <ul>
+        <li>✅ 500 Followers ➡️ Rp 28.000</li>
+        <li>✅ 1000 Followers ➡️ Rp 56.000</li>
+        <li>✅ 2000 Followers ➡️ Rp 112.000</li>
+        <li>✅ 5000 Followers ➡️ Rp 280.000</li>
+        <li>✅ 10.000 Followers ➡️ Rp 560.000</li>
+      </ul>
+    </div>
+<!-- TAB FITUR START -->
+<style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #111;
+      color: #fff;
+    }
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: #222;
+    }
+    .tabs button {
+      background: #333;
+      border: none;
+      padding: 14px 20px;
+      margin: 2px;
+      color: #fff;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 5px 5px 0 0;
+    }
+    .tabs button.active {
+      background: #ffcc00;
+      color: #000;
+    }
+    .tab-content {
+      display: none;
+      padding: 20px;
+      background: #222;
+      max-width: 700px;
+      margin: auto;
+      border-radius: 0 0 10px 10px;
+    }
+    .tab-content.active {
+      display: block;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding: 8px 12px;
+      background: #333;
+      margin: 6px 0;
+      border-radius: 6px;
+    }
+    h2 {
+      color: #ffcc00;
+      text-align: center;
+    }
+  
+</style>
+
+<div class="section" data-aos="fade-up">
+  <h2>🧩 FITUR TAMBAHAN LAINNYA</h2>
+  <div class="tabs">
+    <button onclick="showTab('ig')" class="active">Instagram</button>
+    <button onclick="showTab('tiktok')">TikTok</button>
+    <button onclick="showTab('telegram')">Telegram</button>
+    <button onclick="showTab('facebook')">Facebook</button>
+    <button onclick="showTab('like')">Like</button>
+    <button onclick="showTab('view')">View</button>
+    <button onclick="showTab('comment')">Comment</button>
+  </div>
+
+  <div id="ig" class="tab-content active">
+    <h2>📸 FOLLOWERS INSTAGRAM</h2>
+    <ul>
+      <li><strong>Internasional</strong></li>
+      <li>✅ 500 ➡️ Rp 27.000</li>
+      <li>✅ 1000 ➡️ Rp 54.000</li>
+      <li>✅ 2000 ➡️ Rp 108.000</li>
+      <li>✅ 5000 ➡️ Rp 270.000</li>
+      <li>✅ 10.000 ➡️ Rp 540.000</li>
+      <li><strong>Indonesia</strong></li>
+      <li>✅ 500 ➡️ Rp 70.000</li>
+      <li>✅ 1000 ➡️ Rp 140.000</li>
+      <li>✅ 2000 ➡️ Rp 280.000</li>
+      <li>✅ 5000 ➡️ Rp 700.000</li>
+      <li>✅ 10.000 ➡️ Rp 1.400.000</li>
+    </ul>
+  </div>
+
+  <div id="tiktok" class="tab-content">
+    <h2>🎵 FOLLOWERS TIKTOK</h2>
+    <ul>
+      <li>✅ 500 ➡️ Rp 27.000</li>
+      <li>✅ 1000 ➡️ Rp 54.000</li>
+      <li>✅ 2000 ➡️ Rp 108.000</li>
+      <li>✅ 5000 ➡️ Rp 270.000</li>
+      <li>✅ 10.000 ➡️ Rp 540.000</li>
+    </ul>
+  </div>
+
+  <div id="telegram" class="tab-content">
+    <h2>📱 MEMBERS CHANNEL TELEGRAM</h2>
+    <ul>
+      <li>✅ 500 ➡️ Rp 35.000</li>
+      <li>✅ 1000 ➡️ Rp 70.000</li>
+      <li>✅ 2000 ➡️ Rp 140.000</li>
+      <li>✅ 5000 ➡️ Rp 350.000</li>
+    </ul>
+  </div>
+
+  <div id="facebook" class="tab-content">
+    <h2>📚 FACEBOOK FOLLOWERS</h2>
+    <ul>
+      <li>✅ 500 ➡️ Rp 35.000</li>
+      <li>✅ 1000 ➡️ Rp 70.000</li>
+      <li>✅ 2000 ➡️ Rp 140.000</li>
+      <li>✅ 5000 ➡️ Rp 350.000</li>
+    </ul>
+  </div>
+
+  <div id="like" class="tab-content">
+    <h2>👍 LIKE</h2>
+    <ul>
+      <li>Silakan hubungi admin untuk detail harga Like.</li>
+    </ul>
+  </div>
+
+  <div id="view" class="tab-content">
+    <h2>👁️ VIEW</h2>
+    <ul>
+      <li>Silakan hubungi admin untuk detail harga View.</li>
+    </ul>
+  </div>
+
+  <div id="comment" class="tab-content">
+    <h2>💬 COMMENT</h2>
+    <ul>
+      <li>Silakan hubungi admin untuk detail harga Comment.</li>
+    </ul>
+  </div>
+
+  <script>
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      document.querySelector(`.tabs button[onclick="showTab('${tabId}')"]`).classList.add('active');
+    }
+  </script>
+</div>
+
+<script>
+
+    function showTab(tabId) {
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      document.querySelector(`.tabs button[onclick="showTab('${tabId}')"]`).classList.add('active');
+    }
+  
+</script>
+<!-- TAB FITUR END -->
+
+
+    <div class="section" data-aos="fade-up">
+      <h2>✨ KENAPA PILIH KAMI?</h2>
+      <ul>
+        <li>✅ Followers real & aktif</li>
+        <li>✅ Aman tanpa password</li>
+        <li>✅ Proses cepat (1–24 jam)</li>
+        <li>✅ Cocok untuk personal, bisnis, creator, & UMKM</li>
+        <li>✅ Bisa request custom jumlah!</li>
+      </ul>
+    </div>
+
+    <div class="cta" data-aos="fade-up">
+      <a href="https://wa.me/6283138846539" target="_blank">📲 Order via WhatsApp</a>
+      <a href="https://t.me/gaxshaa" target="_blank" class="telegram">📩 Telegram</a>
+    </div>
+
+    <footer>
+      &copy; 2025 GIYU STORE • Layanan aktif 24 jam / setiap hari
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true });
+  </script>
+</body>
+</html>
